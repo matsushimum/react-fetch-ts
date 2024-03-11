@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ApiFetch from './components/ApiFetch';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
+          <ApiFetch />
         </p>
         <a
           className="App-link"
